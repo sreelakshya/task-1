@@ -1,0 +1,22 @@
+body {
+    background-color: #e1e7c0;
+
+}
+header {
+    text-align: center;
+    background-color: #d0c1e0;
+    color: black;
+}
+
+section {
+     background-color: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    background-color: #d0c1e0;
+    text-align: center;
+}

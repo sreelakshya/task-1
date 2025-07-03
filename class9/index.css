@@ -1,0 +1,82 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "Header Header"
+    "Menu Content" 
+    "Footer Footer";
+    grid-template-columns: repeat(45fr 1fr);
+    gap: 10px;
+    background-color: #FFAAAA;
+    padding: 20px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+.Header {
+    grid-area: Header;
+    text-align: center;
+    background-color: #FFDCDC;
+    padding: 10px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+.Menu {
+    grid-area: Menu;
+    text-align: center;
+    background-color: #FFDCDC;
+    padding: 50px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+.Content {
+    font-size: large;
+    grid-area: Content;
+    text-align: center;
+    background-color: #FFDCDC;
+    padding: 50px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+.Footer {
+    grid-area: Footer;
+    text-align: center;
+    background-color: #FFDCDC;
+    padding: 10px;
+    border: solid;
+    border-color: #000000;
+    border-radius: 10px;
+}
+
+Menu,a:Link, a:visited {
+    background-color: #FFAAAA;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: #FFDCDC;
+}
+
+Content,ul {
+    font-size: medium;
+}
+
